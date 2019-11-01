@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Question 2</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>Theory and DOM</h1>
+            <p>You will be answering some JS theoritical Questions and coding up some DOM questions</p>
+        </div>
+    </div>
+
+    <!-- Resouces needed table start-->
+    <div class="container">
+        <h4> Resources needed for the below questions: </h4>
+        <div class="row">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Resource</th>
+                        <th scope="col">Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Datatypes</th>
+                        <td><a class="btn btn-primary"
+                                href="https://www.w3schools.com/js/js_datatypes.asp"
+                                role="button">Link</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Comparisons</th>
+                        <td><a class="btn btn-primary" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness"
+                                role="button">Link</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">What is DOM?</th>
+                        <td><a class="btn btn-primary" href="https://www.youtube.com/watch?v=XD7fYLQeQIg"
+                                role="button">Link1</a> <br/> <br/> <a class="btn btn-primary" href="https://www.geeksforgeeks.org/dom-document-object-model/"
+                                role="button">Link2</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Document.get Methods</th>
+                        <td><a class="btn btn-primary"
+                                href="https://www.digitalocean.com/community/tutorials/how-to-access-elements-in-the-dom"
+                                role="button">Link</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">DOM Children</th>
+                        <td><a class="btn btn-primary" href="https://www.w3schools.com/jsref/prop_element_children.asp"
+                                role="button">Link</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- Resouces needed table end-->
+
+    <div class="container">
+        <div class="row">
+            <p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#rule_1_collapse"
+                    aria-expanded="false" aria-controls="rule_1_collapse">
+                    Question 2.1 (4 points)
+                </button>
+            </p>
+            <div class="collapse" id="rule_1_collapse">
+                <div class="card card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="https://imgur.com/T03iNna"><img src="https://i.imgur.com/T03iNna.png"
+                                    title="source: imgur.com" /></a>
+                        </li>
+                        <li class="list-group-item">
+                            What would be the outputs of the 3 console.logs function calls? Could you explain the result
+                            of the last 2 console.log statements in a couple of lines? (3 points)
+                        </li>
+                        <li class="list-group-item">
+                            Fill your answer in <b>display2_1()</b> in the javascript file (1 point)
+                        </li>
+                        <li class="list-group-item" id="21answer">
+                            No answer
+                        </li>
+                        <br />
+                        <button type="button" class="btn btn-danger" onclick="display2_1()"> Display my answer</button>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#rule_2_collapse"
+                    aria-expanded="false" aria-controls="rule_2_collapse">
+                    Question 2.2 (4 points)
+                </button>
+            </p>
+            <div class="collapse" id="rule_2_collapse">
+                <div class="card card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="https://imgur.com/dvEYhdq"><img src="https://i.imgur.com/dvEYhdq.png"
+                                    title="source: imgur.com" /></a>
+                        </li>
+                        <li class="list-group-item">
+                            What would happen in the following code? What would change if I removed the “use strict”?
+                            Explain in a couple of lines (2 points)
+                        </li>
+                        <li class="list-group-item">
+                             Fill your answer in <b>display2_2()</b> in the javascript file (1 point)
+                        </li>
+                        <li class="list-group-item" id="22answer">
+                            No answer
+                        </li>
+                        <br />
+                        <button type="button" class="btn btn-danger" onclick="display2_2()"> Display my answer</button>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#rule_3_collapse"
+                    aria-expanded="false" aria-controls="rule_3_collapse">
+                    Question 2.3 (2 points)
+                </button>
+            </p>
+            <div class="collapse" id="rule_3_collapse">
+                <div class="card card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item"> In the countDiv() method, replace “dummyMethod” with the
+                            appropriate one, to count all the tags that are divs in the HTML. Do not add new lines to
+                            the function, do not make changes to the HTML or CSS. (1 point)</li>
+                    </ul>
+                </div>
+                <button type="button" class="btn btn-danger" onclick="countDiv()">Count Divs</button>
+            </div>
+        </div>
+
+        <br />
+
+        <div class="row">
+            <p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#rule_4_collapse"
+                    aria-expanded="false" aria-controls="rule_4_collapse">
+                    Question 2.4 (3 points)
+                </button>
+            </p>
+            <div class="collapse" id="rule_4_collapse">
+                <div class="card card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item"> The table shown has 2 columns, a name and their favourite anime.
+                            Get all the HTML tags that are called “naruto” (Note the case), and make them orange. In the
+                            makeOrange()
+                            method, please replace the “dummyMethod” with the appropriate one. Do not add new lines to
+                            the function, do not make changes to the HTML or CSS. (2 points)</li>
+                    </ul>
+                </div>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Favorite Anime</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mark</td>
+                            <td name="dbz">Dragon Ball Z</td>
+                        </tr>
+                        <tr>
+                            <td>Jacob</td>
+                            <td name="naruto">Naruto</td>
+                        </tr>
+                        <tr>
+                            <td>Larry</td>
+                            <td name="onepiece">One Piece</td>
+                        </tr>
+                        <tr>
+                            <td>David</td>
+                            <td name="onepiece">One Piece</td>
+                        </tr>
+                        <tr>
+                            <td>Jin</td>
+                            <td name="naruto">Naruto</td>
+                        </tr>
+                        <tr>
+                            <td>Law</td>
+                            <td name="fmab">Full Metal Alchemist Brotherhood</td>
+                        </tr>
+                        <tr>
+                            <td>Hwoarang</td>
+                            <td name="avatar">Avatar: Last Airbender</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="button" class="btn btn-danger" onclick="makeOrange()">Make Orange</button>
+            </div>
+        </div>
+
+        <br />
+
+        <div class="row">
+            <p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#rule_5_collapse"
+                    aria-expanded="false" aria-controls="rule_5_collapse">
+                    Question 2.5 (5 points)
+                </button>
+            </p>
+            <div class="collapse" id="rule_5_collapse">
+                <div class="card card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">  List all the children of a div with the id “div_1134”. This needs to be done in the getChildrenTags() funtion. Please replace the “dummyMethod” with the appropriate one. Do not add new lines to the function, do not make changes to the HTML or CSS. (2 points)</li>
+                        <li class="list-group-item">Explain in a couple of lines how you are seeing children that you are not able to view on the HTML page. <br/>  Fill your answer in <b>display2_5()</b> in the javascript file (1 point)</li>
+                        <li class="list-group-item" id="25answer">
+                            No answer
+                        </li>
+                        <br />
+                        <button type="button" class="btn btn-danger" onclick="display2_5()"> Display my answer</button>
+                    </ul>
+                </div>
+                <span class="border border-danger"></span>
+                <div class="card card-body">
+                    <div id="div_1134">
+                        <p style="display: none;">random <b>Paragraph</b> here.</p>
+                        <button style="display: none;">Dummy Button</button>
+                        <p id="demo"></p>
+                    </div>
+                    <button type="button" class="btn btn-primary" onclick="getChildrenTags()">Print Children
+                        Tags</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+<script type="text/javascript" src="./coding.js"></script>
+
+</html>
